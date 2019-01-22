@@ -1,6 +1,17 @@
+# !
 .sfdx
+
+# !
 .vscode
+
+# !
 config/
+
+# !
 .forceignore
+
+# !
 .gitignore
+
+# !
 sfdx-project.json
