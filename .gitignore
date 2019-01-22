@@ -1,6 +1,6 @@
 .sfdx
 .vscode
-config
+config/
 .forceignore
 .gitignore
 sfdx-project.json
