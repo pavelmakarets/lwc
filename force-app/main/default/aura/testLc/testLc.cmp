@@ -1,0 +1,7 @@
+<aura:component implements="force:hasRecordId,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome" 
+    controller="controllerForLc">
+        <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+        <aura:attribute name="recordId" type="String" />
+        <aura:attribute name="options" type="Map" />
+        <lightning:combobox label="Contact Lookup" placeholder="Search Contact" options="{! v.options }" onchange="{! c.handleChange }" />
+</aura:component>	

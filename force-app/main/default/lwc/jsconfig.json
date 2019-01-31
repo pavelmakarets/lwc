@@ -3,6 +3,9 @@
         "experimentalDecorators": true,
         "baseUrl": ".",
         "paths": {
+            "c/hello-binding": [
+                "helloBinding/helloBinding.js"
+            ],
             "c/test-component": [
                 "testComponent/testComponent.js"
             ]

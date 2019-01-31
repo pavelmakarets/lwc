@@ -1,7 +1,8 @@
 <template>
     <lightning-card title="HelloWorld" icon-name="custom:custom14">
         <div class="slds-card__body slds-card__body_inner">
-            Hello, {name}!
+            Hello, {test}!X
         </div>
+        <lightning-input label="text" value={test} onchange={updateTest}></lightning-input>
     </lightning-card>
 </template>
